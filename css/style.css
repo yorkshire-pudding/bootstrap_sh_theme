@@ -1,0 +1,160 @@
+/**
+ * Place your custom styles here.
+ */
+ h1 {
+     font-size: 4rem;
+ }
+ h2 {
+     font-size: 3.25rem;
+     color:#093059;
+ }
+ h3 {
+    font-size: 2.5rem;
+     color:#2a9fd6;
+ }
+ /*body {
+     font-size:15px;
+ }*/
+ 
+.content-block-value {
+     font-size: 1.5rem;
+     padding-left:10%;
+     padding-right:10%;
+     padding-bottom:10%;
+ }
+ .content-block-title {
+     margin-bottom:0px;
+ }
+.medium-block-column-2 {
+    column-fill:balance;
+}
+ 
+.region-footer {
+    background-color:#fff;
+    background-color:rgba(255,255,255,0.8);
+}
+
+.region-content {
+    background-color:#fff;
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px 20px 20px 20px;
+}
+
+.form-control {
+    background-color:#fff;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/** Background image text */
+.background-image-dark .background-image-wrapper .background-image-overlay {
+    background: 0 0;
+    background: -webkit-gradient(left top,left bottom,color-stop(50%,transparent),color-stop(100%,rgba(0,0,0,.95)));
+    background: linear-gradient(to bottom,transparent 50%,rgba(0,0,0,.95) 100%);
+}
+.background-image-wrapper .background-image-overlay {
+    background: 0 0;
+    background: -webkit-gradient(left top,left bottom,color-stop(50%,rgba(255,255,255,0)),color-stop(100%,rgba(255,255,255,.95)));
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 50%,rgba(255,255,255,.95) 100%);
+}
+.background-image-overlay {
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: translate3d(0,0,0) translateZ(0);
+}
+
+.background-image-full-viewport .background-image-wrapper .background-image-text {
+    -ms-flex-align: end;
+    align-items: flex-end;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+}
+.background-image-dark .background-image-wrapper .background-image-text {
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.3), 0 5px 15px rgba(0,0,0,.3), 5px 0 10px rgba(0,0,0,.1), -5px 0 10px rgba(0,0,0,.1);
+}
+@media (min-width: 240px){
+    body {
+        font-size:12px;
+    }
+    .background-image-wrapper .background-image-text {
+        padding: 1rem;
+        text-align: left;
+        /*font-size: 1.0rem;*/
+    }
+}
+@media (min-width: 768px){
+    body {
+        font-size:12px;
+    }
+    .background-image-wrapper .background-image-text {
+        padding: 1rem;
+        text-align: left;
+       /* font-size: 1.0rem;*/
+    }
+    
+}
+@media (min-width: 992px){
+    body {
+        font-size:15px;
+    }
+    .background-image-wrapper .background-image-text {
+        padding: 2rem;
+      /*  font-size: 1.5rem;*/
+    }
+}
+
+.background-image-wrapper .background-image-text {
+    /*color: #1e2a38;
+    line-height: 1;
+    padding: 30px;*/
+    text-align: center;
+    /*text-shadow: 0 5px 10px rgba(0,0,0,.15), 0 5px 15px rgba(0,0,0,.15), 5px 0 10px rgba(0,0,0,.05), -5px 0 10px rgba(0,0,0,.05);
+    width: 100%;*/
+}
+.background-image-full-viewport .background-image-text {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.background-image-text {
+    width: 100%;
+}
+.background-image-text h1, .background-image-text h2 {
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 3px 3px 5px #000;
+}
+.block-title {
+    margin-bottom:30px;
+}
+
+.cta-button {
+    text-align: center;
+    /*padding:20px;*/
+    padding-bottom:0.75rem;
+}
+
+.btn-cta{
+    background-color:#0AB053;
+    border-color:#0AB053;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.btn-cta:hover{
+    background-color:#fff;
+    color:#0AB053 ;
+}
+.navbar-nav{
+    font-size:1.5rem;
+}
