@@ -1,9 +1,0 @@
-{
-  "name": "yorkshire-pudding/bootstrap_sh_theme",
-  "description": "This is a custom sub-theme of Bootstrap for System Horizons' website",
-  "type": "drupal-custom-theme",
-  "homepage": "https://github.com/yorkshire-pudding/bootstrap_sh_theme",
-  "require": {
-    "drupal/bootstrap": "8.3.x"
-  }
-}
